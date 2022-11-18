@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> -->
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js" defer></script>
+  <title>Grocery List</title>
+</head>
+<body>
+<h2>Grocery List</h2>
+  <form id="grocery-list">
+    <p>Please enter what you need from the store</p>
+    <label for="item1">Item #1</label><br>
+    <input type="text" id="item1" name="grocerylist"><br>
+    <label for="item2">Item#2</label><br>
+    <input type="text" id="item2" name="grocerylist"><br>
+    <label for="item2">Item#3</label><br>
+    <input type="text" id="item3" name="grocerylist"><br>
+    <label for="item2">Item#4</label><br>
+    <input type="text" id="item4" name="grocerylist"><br>
+    <button type="submit">Submit List</button>
+  </form>
+
+  <div class="hidden" id="show-me">
+    <h3>Here are the items you requested: </h3>
+    <ul id="result">
+    </ul>
+    <h4>WHY AM I YELLING?!</h4>
+  </div>
+</body>
+</html>
